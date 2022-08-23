@@ -1,0 +1,74 @@
+.header-kass {
+    margin-top: 30px;
+    margin-left: 6%;
+}
+
+.span-url {
+    margin-top: 60px;
+    color: #0a2540;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.rr {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.span-price {
+    color: #0a2540;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.svgImg {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.span-info {
+    font-family: "Factor IO", Helvetica, Arial, sans-serif;
+    opacity: 0.7;
+}
+
+#hiddenInput {
+    display: none;
+}
+
+.img-plat {
+    cursor: pointer;
+    margin-top: 15px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.img-plat:hover { 
+    transform: translate(0, -3px);
+    -webkit-transform: translate(0,-3px);
+    -o-transform: translate(0,-3px);
+    -moz-transform: translate(0,-3px);
+}
+
+.colum-bank {
+    border-bottom: 1px solid #74838db2;
+}
+
+.h6-kassa {
+    font-weight: 300;
+}
+
+.h6-kassa2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.h6-kassa3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.display-none {
+    display: none;
+}

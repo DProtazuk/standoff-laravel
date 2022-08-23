@@ -1,0 +1,443 @@
+@font-face {
+    font-family: "Eurostile"; /* Имя шрифта */
+    font-weight: 400;
+    src: url("/fonts/Eurostile-Reg.ttf"); /* Путь к файлу со шрифтом */
+}
+
+.Eurostile {
+    font-family: "Eurostile" !important;
+}
+
+@font-face {
+    font-family: "EurostileMed"; /* Имя шрифта */
+    font-weight: 700;
+    src: url("/fonts/Eurostile-Med.ttf"); /* Путь к файлу со шрифтом */
+}
+
+.EurostileMed {
+    font-family: "EurostileMed" !important;
+}
+
+body {
+    width: 100%;
+    background-image: url("../res/fon.jpg") !important;
+}
+
+.svg1 {
+    margin-top: 30px;
+}
+
+.span-div {
+    font-family: "Eurostile" !important; /* Имя шрифта */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.span-footer {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "EurostileMed";
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.svg2:hover, .svgForm1:hover {
+    cursor: pointer;
+}
+
+.img-menu-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+.img-menu-img:hover {
+    cursor: pointer;
+}
+
+.window-poisk {
+    margin-top: 56px;
+    padding: 40px 16px 28px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input-div {
+    max-width: 360px;
+    height: 60px;
+    background-color: rgb(52, 55, 76);
+    border-radius: 5px;
+    border: 2px solid #4d5167;
+}
+
+
+.input-hidden, .input-hidden2 {
+    background: none;
+    border: none;
+    outline:none;
+    color: rgb(173, 173, 173);
+}
+
+.input-hidden:onmouseover{
+    border: 1px solid red;
+}
+
+#butPosik {
+    min-width: 170px;
+    max-width: 170px;
+    height: 40px;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(131, 154, 202);
+    border-radius: 2px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    opacity: 0.3;
+}
+
+#butPosik:hover {
+    cursor: pointer;
+}
+
+#svgForm2:hover {
+    cursor: pointer;
+}
+
+#svg2, .svgForm2 {
+    display: none;
+}
+
+#svg2:hover {
+    cursor: pointer;
+}
+
+.show_user {
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.show_user:active { 
+    background-color: rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+}
+
+.spanIdUser {
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+    font-family: "Eurostile";
+}
+
+.spanLoginUser {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Eurostile";
+    margin-right: 35px;
+}
+
+.divInfo {
+    margin-left: 15px;
+}
+
+.ImgUser:hover {
+    cursor: pointer;
+}
+
+.spanIndex1 {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.spanIndex2 {
+    color: rgb(173, 173, 173);
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.text-eror {
+    font-family: "Eurostile";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.pUser {
+    color: rgb(96, 96, 96);
+    text-decoration: underline;
+}
+
+.array_mony {
+    padding: 40px 16px 28px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.array_mony_content {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu-mini {
+    display: flex;
+    min-width: 100px;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: stretch;
+    align-items: stretch;
+    transition: background 0.2s ease-in-out 0s;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(173, 173, 173);
+    font-family: "Eurostile";
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.menu-mini:hover {
+    cursor: pointer;
+}
+
+.menu-mini-active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.array_mony_content {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 55px;
+    padding-bottom: 28px;
+}
+
+.imgMenu {
+    margin: auto;
+    position: relative;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.div-discount {
+    width: 82px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    box-shadow: rgba(233, 175, 77, 0.5) 0px 0px 10px;
+    align-items: center;
+    border-radius: 2px 0px 0px 2px;
+    justify-content: center;
+    background-color: rgba(233, 175, 77, 0.4);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family: "Eurostile";
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 92px;
+    margin-top: 10px;
+}
+
+.email {
+    font-size: 14px;
+}
+
+.span-discount {
+    position: absolute;
+    margin-top: 125px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(225, 198, 150) 0%, rgb(249, 229, 191) 27.6%, rgb(243, 194, 138) 100%) repeat scroll 0% 0% padding-box text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+    color: red;
+    display: block;
+    font-family: "EurostileMed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    opacity: 0.9;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: rgb(245, 208, 160) 0px 0px 7px;
+}
+
+.butShop {
+    border: none;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: rgb(233, 175, 77);
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: Eurostile, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.butForm:hover { 
+    cursor: pointer;
+}
+
+.imgMenu:hover {
+    background-color: rgba(0, 0, 0, 0.411);
+    cursor: pointer;
+}
+
+.butForm {
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    border: none !important;
+}
+
+.modal-header {
+    background-color: #2f3649;
+    font-family: EurostileMed, "Courier new" !important;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: none;
+}
+.btn-close {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url("../res/icons8-умножение-100.png");
+}
+
+.modal-title {
+    margin-left: 150px;
+}
+
+.modal-body {
+    background-color: #454d65;
+    font-family: "Eurostile";
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.span-discount-modal {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(225, 198, 150) 0%, rgb(249, 229, 191) 27.6%, rgb(243, 194, 138) 100%) repeat scroll 0% 0% padding-box text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+    color: red;
+    display: block;
+    font-family: "EurostileMed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: rgb(245, 208, 160) 0px 0px 7px;
+}
+
+.input-hidden2 {
+    font-size: 16px;
+}
+
+.butShop_form {
+    border: none;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    background-color: rgb(233, 175, 77);
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: Eurostile, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+#butPosikForm, #butPosikForm2, #butPosikForm3, #butPosikForm4  {
+    opacity: 0.4;
+}
+
+.modal {
+    margin-top: 100px;
+}
+
+.svgForm2 {
+    cursor: pointer;
+}
+
+.good-panel {
+    margin-top: 50px;
+    width: 50%;
+    background-color: #2d2b3f;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-good1 {
+    color: rgb(216, 207, 207);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.p-good2 {
+    color: rgb(216, 207, 207);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.hrefIndex {
+
+}
+
+.hrefIndex {
+    opacity: 1 !important;
+}
+
+.display {
+    display: none !important;
+}
